@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/ubuntu/Desktop/linux-raspi-5.4.0/include",
+                "/home/ubuntu/Desktop/linux-raspi-5.4.0/include/uapi",
+                "~/Desktop/linux-raspi-5.4.0/arch/arm64/include/",
+                "~/Desktop/linux-raspi-5.4.0/arch/arm64/include/uapi",
+                "~/Desktop/linux-raspi-5.4.0/arch/arm64/include/generated",
+                "~/Desktop/linux-raspi-5.4.0/arch/arm/include",
+                "~/Desktop/linux-raspi-5.4.0/arch/arm/include/uapi"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "KBUILD_MODNAME=\"xxxxx\""
+            ],
+            "compilerPath": "~/Desktop/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
