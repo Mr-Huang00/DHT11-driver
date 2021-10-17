@@ -1,7 +1,7 @@
 obj-m += dht11_drv.o
 dht11_drv-y := source/dht11_drv.o\
-           source/bcm2711_reg.o\
-		   source/dht11.o
+               source/bcm2711_reg.o\
+		       source/dht11.o
 
 KERNEL_PATH:="/home/ubuntu/Desktop/linux-raspi-5.4.0"
 COMPIL := "/home/ubuntu/Desktop/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-"
